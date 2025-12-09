@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Jordyn Czyzewski</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap + CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR (same as home page) -->
+    <nav class="navbar navbar-expand-lg navbar-default">
+        <div class="container-fluid">
+
+            <a class="navbar-brand" href="index.html">Jordyn Czyzewski</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-list"
+                     xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd"
+                          d="M2.5 11.5A.5.5 0 0 1 3 11h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 7h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 3h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+                </svg>
+                <span class="menu"> Menu</span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="resume.html">Resume</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- PROJECT WRAPPER -->
+    <div class="container project-page">
+
+        <!-- HERO BAR -->
+        <div class="row">
+            <div class="col-md-12">
+                <div class="project-hero">
+                    <h2><b>Moomin World Map</b></h2>
+                    <p>
+                        A custom Mapbox Studio basemap inspired by the whimsical world of Tove Jansson and my time in Helsinki.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- TWO COLUMN LAYOUT -->
+        <div class="row project-row">
+
+            <!-- LEFT: IMAGE -->
+            <div class="col-md-6">
+                <div class="project-panel project-panel-purple">
+                    <a href="assets/City of Madison Moomin Map Screenshot.png"
+                       target="_blank"
+                       title="Click to view full size map">
+                        <img src="assets/City of Madison Moomin Map Screenshot.png"
+                             alt="Moomin World Map"
+                             class="img-fluid project-image-full">
+                    </a>
+                </div>
+            </div>
+
+            <!-- RIGHT: TEXT -->
+            <div class="col-md-6">
+                <div class="project-panel project-panel-green">
+                    <p>
+                        Moomin World is a custom map designed in Mapbox Studio inspired by the three months I spent
+                        working in Helsinki, Finland and learning about Finnish culture. The project recreates the
+                        whimsical, colorful atmosphere of Tove Jansson's Moomin universe by blending soft illustrative
+                        textures, rounded forms, and playful symbology within a geographic framework.
+                    </p>
+                    <p>
+                        I focused on mimicking the gentle, storybook quality of Moomin art while using mapping tools to
+                        bring the landscape to life. This basemap captures the charm of Finnish design and the joy I
+                        found exploring the places that shaped Jansson's work, turning my time in Finland into an
+                        imaginative and interactive cartographic world.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- SCRIPTS -->
+    <script src="lib/jquery-3.5.1.min.js"></script>
+    <script src="lib/bootstrap.min.js"></script>
+</body>
+
+</html>

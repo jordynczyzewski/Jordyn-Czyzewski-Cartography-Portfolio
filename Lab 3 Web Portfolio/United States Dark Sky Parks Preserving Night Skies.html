@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Jordyn Czyzewski</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap + CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-default">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Jordyn Czyzewski</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-list"
+                     xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd"
+                          d="M2.5 11.5A.5.5 0 0 1 3 11h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 7h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 3h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+                </svg>
+                <span class="menu"> Menu</span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="resume.html">Resume</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- PROJECT WRAPPER -->
+    <div class="container project-page">
+
+        <!-- HERO BAR -->
+        <div class="row">
+            <div class="col-md-12">
+                <div class="project-hero">
+                    <h2><b>United States Dark Sky Parks</b></h2>
+                    <p>
+                        A static map highlighting designated Dark Sky Parks across the United States.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- TWO COLUMN LAYOUT -->
+        <div class="row project-row">
+
+            <!-- LEFT: IMAGE -->
+            <div class="col-md-6">
+                <div class="project-panel project-panel-purple">
+                    <a href="assets/United States Dark Sky Parks.png"
+                       target="_blank"
+                       title="Click to view full size map">
+                        <img src="assets/United States Dark Sky Parks.png"
+                             alt="United States Dark Sky Parks map"
+                             class="img-fluid project-image-full">
+                    </a>
+                </div>
+            </div>
+
+            <!-- RIGHT: TEXT -->
+            <div class="col-md-6">
+                <div class="project-panel project-panel-green">
+                    <p>
+                        This map visualizes designated US Dark Sky Parks with Bortle Class 3 skies or darker. Spatial
+                        analysis was completed in ArcGIS Pro, and final cartographic refinement was done in Adobe
+                        Illustrator.
+                    </p>
+                    <p>
+                        The project highlights the importance of preserving landscapes that offer exceptional
+                        night-sky visibility. By showing where these parks are located and their surrounding
+                        environments, the map encourages greater awareness of light pollution and the ecological and
+                        cultural value of dark skies.
+                    </p>
+                    <p>
+                        This work reflects my interest in environmental storytelling and the power of cartography to
+                        make scientific and ecological information more accessible to a broad audience.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- SCRIPTS -->
+    <script src="lib/jquery-3.5.1.min.js"></script>
+    <script src="lib/bootstrap.min.js"></script>
+</body>
+
+</html>

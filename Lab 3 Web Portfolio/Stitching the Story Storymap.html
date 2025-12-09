@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Jordyn Czyzewski</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap + CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-default">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Jordyn Czyzewski</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-list"
+                     xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd"
+                          d="M2.5 11.5A.5.5 0 0 1 3 11h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 7h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 3h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+                </svg>
+                <span class="menu"> Menu</span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="resume.html">Resume</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- PROJECT WRAPPER -->
+    <div class="container project-page">
+
+        <!-- HERO BAR -->
+        <div class="row">
+            <div class="col-md-12">
+                <div class="project-hero">
+                    <h2><b>Stitching the Story of Textile Waste</b></h2>
+                    <p>
+                        An interactive StoryMap tracing textile production, consumption, and waste through global trade and policy.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- TWO COLUMN LAYOUT -->
+        <div class="row project-row">
+
+            <!-- LEFT: IMAGE -->
+            <div class="col-md-6">
+                <div class="project-panel project-panel-purple">
+
+                    <!-- UPDATED LINK TARGET -->
+                    <a href="https://storymaps.arcgis.com/stories/a21667f3ced44fd39b81ef1fb0acfa1f"
+                       target="_blank"
+                       title="Open the full StoryMap">
+                        <img src="assets/Stitching the Story Storymap Screenshot.png"
+                             alt="Stitching the Story StoryMap"
+                             class="img-fluid project-image-full">
+                    </a>
+
+                </div>
+            </div>
+
+            <!-- RIGHT: TEXT PANEL -->
+            <div class="col-md-6">
+                <div class="project-panel project-panel-green">
+                    <p>
+                        Stitching the Story is an interactive Esri StoryMap built in ArcGIS Online that visualizes the
+                        global flow of textiles from production to consumption to waste. It highlights how fast fashion
+                        shapes labor conditions, environmental impacts, and emerging circular policies in places such as
+                        California and New York.
+                    </p>
+                    <p>
+                        I was inspired to create this project through my work as President of Re-Wear It Wisconsin, a
+                        student organization at UW Madison that promotes sustainable fashion and textile reuse.
+                    </p>
+                    <p>
+                        The StoryMap combines narrative mapping, trade data, and policy analysis to make the textile
+                        system more visible and understandable, inviting viewers to reflect on their own consumption
+                        and consider more just and sustainable alternatives.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- SCRIPTS -->
+    <script src="lib/jquery-3.5.1.min.js"></script>
+    <script src="lib/bootstrap.min.js"></script>
+</body>
+
+</html>
