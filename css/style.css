@@ -406,8 +406,9 @@ body.resume-page .resume-card hr {
 }
 
 .project-panel-purple {
-    background-color: var(--accent-purple);
+    background-color: #000000; /* black */
 }
+
 
 .project-panel-green {
     background-color: var(--accent-green);
